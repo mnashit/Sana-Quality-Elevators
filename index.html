@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sana Quality Elevators</title>
+
+<link rel="icon" type="image/png" href="asset/bg.png">
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+<style>
+:root{--dark:#020d18;--blue:#001f3f;--gold:#d4af37}
+body{font-family:'Cairo','Poppins',sans-serif;background:var(--dark);color:#fff}
+.en{font-family:Poppins;color:var(--gold);font-size:13px}
+.navbar{background:#000;border-bottom:2px solid var(--gold)}
+.hero{
+height:80vh;
+background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+url('https://images.unsplash.com/photo-1541888946425-d81bb19480c5?q=80');
+background-size:cover;display:flex;align-items:center
+}
+.box{border:2px solid var(--gold);padding:40px;background:rgba(0,0,0,.6);text-align:center}
+.cardx{background:var(--blue);border-right:4px solid var(--gold);padding:20px}
+
+/* --- Fixed Image Styling for Employees --- */
+.emp-img {
+    width: 100%;
+    max-width: 250px; 
+    margin: 0 auto;
+    aspect-ratio: 1 / 1; 
+    overflow: hidden;
+    border: 2px solid var(--gold);
+    background: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.emp-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+.product img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-bottom: 2px solid var(--gold);
+}
+
+.whatsapp-float{
+position:fixed;right:20px;bottom:20px;
+background:#25d366;color:#fff;width:60px;height:60px;
+border-radius:50%;display:flex;align-items:center;justify-content:center;
+font-size:28px;text-decoration:none;z-index:99
+}
+.qr-code { background: white; padding: 10px; display: inline-block; border-radius: 5px; margin-top: 20px; }
+.admin-btn{position:fixed;left:10px;bottom:10px;font-size:12px;color:#aaa;cursor:pointer}
+.editable[contenteditable="true"]{outline:2px dashed var(--gold);padding:5px}
+
+/* Button Styling for Employees */
+.emp-btns .btn {
+    margin-top: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-dark">
+<div class="container">
+<span class="navbar-brand text-warning fw-bold">
+سنا كواليتي للمصاعد  
+<div class="en">Sana Quality Elevators</div>
+</span> 
+<img src="asset/bg.png" alt="Sana Logo" class="hero-logo" width="100px" height="100px">
+</div>
+</nav>
+
+<section class="hero">
+<div class="container">
+<div class="box mx-auto">
+    
+<h1 class="editable">شركة سنا كواليتي للمصاعد والسلالم الكهربائية</h1>
+<div class="en editable">Sana Quality Elevators & Escalators Company</div>
+<p class="mt-3 editable">نحن نعمل من أجل راحتكم وأمانكم بأعلى جودة</p>
+<div class="en editable">We work for your comfort and safety with top quality</div>
+
+</div>
+</div>
+</section>
+
+<section class="py-5">
+<div class="container text-center">
+<h2>خدماتنا</h2>
+<div class="en">Our Services</div>
+<div class="row g-4 mt-4">
+<div class="col-md-4"><div class="cardx"><h4>تركيب المصاعد</h4><div class="en">Elevator Installation</div><p class="mt-2">تركيب احترافي لجميع أنواع المصاعد</p></div></div>
+<div class="col-md-4"><div class="cardx"><h4>الصيانة</h4><div class="en">Maintenance</div><p class="mt-2">صيانة دورية وخدمة طوارئ</p></div></div>
+<div class="col-md-4"><div class="cardx"><h4>قطع الغيار</h4><div class="en">Spare Parts</div><p class="mt-2">قطع أصلية لضمان أفضل أداء</p></div></div>
+</div>
+</div>
+</section>
+
+<section class="py-5 bg-black">
+<div class="container text-center">
+<h2>منتجاتنا</h2>
+<div class="en">Our Products</div>
+<div class="row g-3 mt-4">
+<div class="col-md-4 product"><img src="asset/3.jpg" alt="Elevator"><p>مصاعد هيدروليك</p></div>
+<div class="col-md-4 product"><img src="asset/2.webp" alt="Glass Elevator"><p>مصاعد تجارية بانورامية</p></div>
+<div class="col-md-4 product"><img src="asset/1.jpg" alt="Escalator"><p>سلالم كهربائية</p></div>
+</div>
+</div>
+</section>
+
+<section class="py-5" style="background: #050505;">
+    <div class="container text-center">
+        <h2>أعمالنا المنفذة</h2>
+        <div class="en">Our Completed Projects</div>
+        
+        <div class="row g-4 mt-4">
+            <div class="col-md-4">
+                <div class="project-item" style="border: 1px solid var(--gold); border-radius: 10px; overflow: hidden; background: #111;">
+                    <img src="asset/01.jpeg" alt="Completed Project" style="width: 100%; height: 300px; object-fit: cover;">
+                    <div class="p-3">
+                        <h5 class="text-warning">مشروع برج السكني</h5>
+                        <p class="small">تركيب 3 مصاعد بانورامية متطورة</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="project-item" style="border: 1px solid var(--gold); border-radius: 10px; overflow: hidden; background: #111;">
+                    <img src="asset/02.jpeg" alt="Completed Project" style="width: 100%; height: 300px; object-fit: cover;">
+                    <div class="p-3">
+                        <h5 class="text-warning">مركز تجاري - المدينة</h5>
+                        <p class="small">تركيب وصيانة سلالم كهربائية عالية الجودة</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="project-item" style="border: 1px solid var(--gold); border-radius: 10px; overflow: hidden; background: #111;">
+                    <img src="asset/03.jpeg" alt="Completed Project" style="width: 100%; height: 300px; object-fit: cover;">
+                    <div class="p-3">
+                        <h5 class="text-warning">فيلا خاصة</h5>
+                        <p class="small">مصعد هيدروليكي بتصميم عصري</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-5">
+<div class="container text-center">
+<h2>فريقنا</h2>
+<div class="en">Our Employees</div>
+<div class="row g-4 mt-4">
+    
+<div class="col-md-4">
+    <div class="emp-img mb-3">
+        <img src="asset/MECHANICAL ENGINEER.jpeg" alt="MECHANICAL ENGINEER">
+    </div>
+    <h5 class="editable">MECHANICAL ENGINEER</h5>
+    <div class="en"><b>Shahbaz Khan</b></div>
+    <div class="emp-btns mt-3">
+        <a href="tel:+966575505132" class="btn btn-outline-warning w-100 mb-2">
+            <i class="fas fa-phone"></i> +966 575505132
+        </a>
+        <a href="https://wa.me/966575505132" class="btn btn-success w-100">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+    </div>
+</div>
+
+<div class="col-md-4">
+    <div class="emp-img mb-3">
+        <img src="asset/MENTINANCE SUPERVISOR.jpeg" alt="MENTINANCE SUPERVISOR">
+    </div>
+    <h5 class="editable">MAINTENANCE SUPERVISOR</h5>
+    <div class="en"><b>Saijad Shaikh</b></div>
+    <div class="emp-btns mt-3">
+        <a href="tel:+966598263562" class="btn btn-outline-warning w-100 mb-2">
+            <i class="fas fa-phone"></i> +966 598263562
+        </a>
+        <a href="https://wa.me/+966 598263562" class="btn btn-success w-100">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+    </div>
+</div>
+
+<div class="col-md-4">
+    <div class="emp-img mb-3">
+        <img src="asset/ACCOUNTANT.jpeg" alt="ACCOUNTANT">
+    </div>
+    <h5 class="editable">ACCOUNTANT</h5>
+    <div class="en"><b>Wasil Shaikh</b></div>
+    <div class="emp-btns mt-3">
+        <a href="tel:+966 581762902" class="btn btn-outline-warning w-100 mb-2">
+            <i class="fas fa-phone"></i> +966 581762902
+        </a>
+        <a href="https://wa.me/+966 581762902" class="btn btn-success w-100">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+    </div>
+</div>
+<center>
+<div class="col-md-4">
+    <div class="emp-img mb-3">
+        <img src="asset/CEO.jpeg" alt="CEO">
+    </div>
+    <h5 class="editable">CEO</h5>
+    <div class="en"><b>Muhammed Aslam Shaikh</b></div>
+    <div class="emp-btns mt-3">
+        <a href="tel:+966 597221002" class="btn btn-outline-warning w-100 mb-2">
+            <i class="fas fa-phone"></i> +966 597221002
+        </a>
+        <a href="https://wa.me/+966 597221002" class="btn btn-success w-100">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+    </div>
+</div>
+</center>
+
+</div>
+</div>
+</section>
+
+<footer class="py-5 bg-dark text-center">
+<div class="container">
+<h4>تواصل معنا</h4>
+<div class="en">Contact Us</div>
+<p class="mt-3">📍 المدينة المنورة – المملكة العربية السعودية</p>
+<p>📞 +966 597221002 | +966 581762902</p>
+<p>📧 <a href="mailto:sanaqualityelevators@gmail.com" style="color:var(--gold); text-decoration:none;">sanaqualityelevators@gmail.com</a></p>
+
+
+</div>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/  +966 597221002"><i class="fab fa-whatsapp"></i></a>
+
+<div class="admin-btn" onclick="toggleAdmin()">ADMIN</div>
+
+<script>
+let admin=false;
+function toggleAdmin(){
+admin=!admin;
+document.querySelectorAll('.editable').forEach(e=>e.contentEditable=admin);
+alert(admin?"ADMIN MODE ON":"ADMIN MODE OFF");
+}
+alert("Welcome to Sana Quality Elevators Website!\nFor any inquiries, please contact us via WhatsApp or phone.");
+</script>
+
+</body>
+</html>
